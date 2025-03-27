@@ -30,3 +30,14 @@ if (isValid) {
 let age = "25";
 let totalAge = age + 5;
 console.log("Total Age: " + totalAge);
+
+
+/* Explicit type*/
+let num = 42;
+let str = String(num);
+
+console.log(str);
+console.log(typeof str);
+
+/* Implicit type */
+console.log(14 == "14");
